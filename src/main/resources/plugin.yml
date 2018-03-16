@@ -1,6 +1,7 @@
 name: CustomLeveling
 main: io.github.mrbeezwax.CustomLeveling
 version: 1.0
+description: Original plugin by Mac-Genius
 permissions:
     cl.*:
         description: Gives access to all commands for the plugin
