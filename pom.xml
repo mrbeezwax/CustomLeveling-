@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.mrbeezwax</groupId>
     <artifactId>CustomLeveling</artifactId>
-    <version>1.0</version>
+    <version>1.8</version>
     <name>CustomLeveling</name>
 
     <build>
