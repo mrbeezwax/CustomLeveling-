@@ -1,4 +1,4 @@
-package io.github.mac_genius.customleveling;
+package io.github.mrbeezwax.customleveling;
 
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
@@ -47,9 +47,20 @@ public class LevelHandler implements Listener {
                 int playerLvl = player.getLevel();
                 if (playerLvl == levelCompare) {
                     float xpBarCurrent = player.getExp() * xpAmount;
+                    player.sendMessage("Current Player XP: " + player.getExp());
+                    player.sendMessage("Current xp Bar: " + xpBarCurrent);
                     float xpBarNew = (xpBarCurrent + event.getAmount()) / xpAmount;
+                    player.sendMessage("EXP Gained: " + event.getAmount());
+                    player.sendMessage("New xp Bar: " + xpBarNew);
+                    /* Old Code
                     event.setAmount(0);
                     player.setExp(xpBarNew);
+                    */
+                    event.setAmount(0);
+                    int levelEarned = (int) xpBarNew;
+                    float remainingXP = xpBarNew - levelEarned;
+                    player.setExp(remainingXP);
+                    player.giveExpLevels(levelEarned);
                     return;
                 }
             }

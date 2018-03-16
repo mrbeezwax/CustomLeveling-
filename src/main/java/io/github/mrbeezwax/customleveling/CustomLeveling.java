@@ -1,4 +1,4 @@
-package io.github.mac_genius.customleveling;
+package io.github.mrbeezwax.customleveling;
 
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -10,8 +10,7 @@ import org.bukkit.plugin.java.JavaPlugin;
  * @author John Harrison
  */
 public class CustomLeveling extends JavaPlugin {
-    Plugin plugin = this;
-    CustomLeveling customLvl = this;
+    private Plugin plugin = this;
 
     /**
      * This is called when the plugin is enabled

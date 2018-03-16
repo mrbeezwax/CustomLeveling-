@@ -1,5 +1,5 @@
 name: CustomLeveling
-main: io.github.mac_genius.customleveling.CustomLeveling
+main: io.github.mrbeezwax.CustomLeveling
 version: 1.0
 permissions:
     cl.*:
