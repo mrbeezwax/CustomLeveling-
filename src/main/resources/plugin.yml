@@ -1,6 +1,6 @@
 name: CustomLeveling
 main: io.github.mrbeezwax.customleveling.CustomLeveling
-version: 1.8
+version: 1.8.1
 description: Original plugin by Mac-Genius
 permissions:
     cl.*:
