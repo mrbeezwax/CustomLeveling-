@@ -2,6 +2,11 @@
 # Make sure not to skip numbers, otherwise the plugin will break.
 # Remove 'none' to add your custom levels. The last number in the list will be the highest level that you can obtain.
 # Format: "1 150" 1 is the next level, 150 is the amount of xp you need to gain to get to that level.
+# Example:
+# levels:
+#     - 1 150
+#     - 2 250
+#     - 3 350
 
 levels:
     - none
