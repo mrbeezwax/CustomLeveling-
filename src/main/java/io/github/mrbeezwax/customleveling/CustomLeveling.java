@@ -19,7 +19,7 @@ public class CustomLeveling extends JavaPlugin {
         plugin.saveDefaultConfig();
         this.getCommand("cl").setExecutor(new Commands(this));
         getServer().getPluginManager().registerEvents(new LevelHandler(plugin), this);
-        getLogger().info("CustomLeveling now implemented.");
+        getLogger().info("CustomLeveling v1.8.3 now implemented.");
     }
 
     /**
